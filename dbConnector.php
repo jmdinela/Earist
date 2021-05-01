@@ -7,12 +7,16 @@ var $link;
     
     public function __construct() {
         ob_start();
-  // Get the main settings from the array we just loaded
-        $host = 'localhost';
-        $db = 'capstone';
-        $user = 'root';
-        $pass = '';
-
+  // Development Connection
+     //   $host = 'localhost';
+      //  $db = 'earist_db';
+      //  $user = 'root';
+      //  $pass = '';
+	    
+$host = 'remotemysql.com';
+        $db = '68h9Tq73Jk';
+        $user = '68h9Tq73Jk';
+        $pass = 'WWjXIx4PQw';
         // Connect to the database
         $this->link = mysqli_connect($host, $user, $pass,$db);
 
@@ -25,10 +29,10 @@ var $link;
 function DbConnector(){
 
         // Get the main settings from the array we just loaded
-        $host = 'localhost';
-        $db = 'capstone';
-        $user = 'root';
-        $pass = '';
+        $host = '68h9Tq73Jk';
+        $db = '68h9Tq73Jk';
+        $user = '68h9Tq73Jk';
+        $pass = 'WWjXIx4PQw';
 
         // Connect to the database
         $this->link = mysqli_connect($host, $user, $pass,$db);
