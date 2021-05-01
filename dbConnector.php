@@ -29,7 +29,7 @@ $host = 'remotemysql.com';
 function DbConnector(){
 
         // Get the main settings from the array we just loaded
-        $host = '68h9Tq73Jk';
+        $host = 'remotemysql.com';
         $db = '68h9Tq73Jk';
         $user = '68h9Tq73Jk';
         $pass = 'WWjXIx4PQw';
